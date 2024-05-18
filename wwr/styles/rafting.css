@@ -1,7 +1,6 @@
 @import url("https://font.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap");
 body{
     font-family: var(--paragraph-font);
-    max-width: 960px;
     padding: 20px;
 }
 :root{
@@ -20,58 +19,103 @@ body{
 }
 h1,h2,h3,h4,h5,h6 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: white;
 }
 header{
-    padding:20px;
+    display: flex;
+    justify-content: space-between;
+    background-color:  #0077B6;
+}
+header img{
+    margin: 20px 50px 20px;
+    width: 100px;
 
 }
-p{
-    padding:25px;
-}
-nav{
+.header{
     background-color: var(--nav-background-color);
-    font-size: 1.2rem;
+    font-size: 1rem;
     display: flex;
+    height: 50px;
+    align-self: center;
+    padding: 0;
+    margin-right: 50px;
 }
-nav a{
+.header a{
     display: block;
     color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
+
 }
-nav a:link,nav a:visited{
+.header a:link,nav a:visited{
     color:var(--nav-link-color);
 }
-nav a:hover{
+.header a:hover{
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
 }
-.hero img{
-    display:block;
-    width: 100%;
-    height: auto;
+.para1{
+    background-image:url(https://www.poconowhitewater.com/wp-content/uploads/2016/03/dam-release-237x175.jpg);
+    height: 350px;
 }
-footer{
-    display: inline;
+.parabox{
+    display: flex;
+    height: 150px;
+    padding: 50px;
+    background-image:linear-gradient(90deg,red,blue,transparent);
+    margin:0px 50px 50px 50px;
+    color: white;
 }
-.sociallinks {
-    background-color: white;
-    display: relative;
-    margin: 0%;
-    padding: 0%;
+.parabox img{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
 }
-figcaption{
-    text-align: center;
+h1,h2{
+    display: flex;
+    justify-content: center;
+}
+.para2-container{
+    background-color: #CFD2CD;
+}
+.para2{
+    display: flex;
+    justify-content: center;
+}
+.para2 img{
+    width: 300px;
+    height: 150px;
+    margin: 20px;
+}
+.last{
+    background-color: #CFD2CD;
 }
 .figureflex{
-    display: flex; 
+    display: flex;
+    justify-content: space-around;
+    padding: 0%;
+    margin: 0%;
 }
-figure img{
-    width: 200px;
-    height:150px;
+.figureflex img{
+    width: 150px;
+    height: 100px;
 }
 figure{
-    padding: 0;
-    margin: 3px;
+    align-self: center;
+}
+.footer-container{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+    background-color:  #0077B6;
+    margin: 20px 0px;
+    color: white
+}
+.footer-item1{
+    margin-right: 300px;
+}
+.footer-item2{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 10px;
 }
