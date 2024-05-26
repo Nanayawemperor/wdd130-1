@@ -24,7 +24,7 @@ h1,h2,h3,h4,h5,h6 {
 header{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color:  #0077B6;
+    background-color:  #03045E;
 }
 header img{
     margin: 20px 50px 20px;
@@ -107,7 +107,7 @@ figure{
     display: flex;
     justify-content: flex-end;
     padding-right: 30px;
-    background-color:  #0077B6;
+    background-color:  #03045E;
     margin: 20px 0px;
     color: white
 }
