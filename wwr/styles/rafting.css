@@ -8,10 +8,10 @@
     --header-font:"Roboto", serif;
     --paragraph-font:"Georgina", serif;
 
-    --nav-background-color:#e0f3da;
-    --nav-link-color:#0a0c02;
-    --nav-hover-link-color:#CFD2CD;
-    --nav-hover-background-color:#A6A2A2;
+    --nav-background-color:#03045E;
+    --nav-link-color:#fdfdfd;
+    --nav-hover-link-color:#000000;
+    --nav-hover-background-color:#ffffff;
 }
 h1,h2,h3,h4,h5,h6 {
     font-family: var(--heading-font);
@@ -44,7 +44,6 @@ header img{
     color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
-
 }
 .header a:link,nav a:visited{
     color:var(--nav-link-color);
